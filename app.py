@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)  # <- This is the fix
 filters = []
 
-@app.route(“/“)
+@app.route("/")
 def home():
     return “Doginal Dog Sniper Backend Live”
 
